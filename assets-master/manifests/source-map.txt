@@ -1,0 +1,11 @@
+assets-master/logos/brand <= public/logos
+assets-master/logos/wix-logos <= public/wix-logos
+assets-master/logos/associations <= public/assets/wix_downloads/(AMA*, UNICEF, RMIT)
+assets-master/fonts <= public/fonts
+assets-master/hero <= public/assets/(wix-hero-superman, lockups, key logo pngs)
+assets-master/sections <= public/assets/(section panel and tile artwork)
+assets-master/photos <= public/assets/photos
+assets-master/health-logos <= public/assets/health_logos
+assets-master/raw-exports/wix-export-20260528 <= /Users/oliver/Documents/New project/wix-export-20260528
+assets-master/raw-exports/wix-export-20260528-clean <= /Users/oliver/Documents/New project/wix-export-20260528-clean
+assets-master/raw-exports/drad-c2-v25-2-temp <= /Users/oliver/Documents/New project/drad-c2-v25-2-temp

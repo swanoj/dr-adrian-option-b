@@ -1284,6 +1284,40 @@ img {
   text-transform: uppercase;
 }
 
+.wixv3-main-nav {
+  min-height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 8px 24px;
+  border-bottom: 1px solid #d8ddd8;
+  background: #f4f6f3;
+  flex-wrap: wrap;
+}
+
+.wixv3-main-link {
+  color: #727579;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.wixv3-nav-cta {
+  min-width: 132px;
+  min-height: 36px;
+  border: 1px solid #a8adad;
+  color: #66c3a1;
+  background: #f4f6f3;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
 .wixv3-hero-head {
   background: linear-gradient(180deg, #6cc7a8 0%, #7bcdb0 42%, #f0f1ef 100%);
   min-height: 430px;
@@ -1435,21 +1469,11 @@ img {
   text-align: center;
 }
 
-.wixv3-wellbeing-text {
-  margin: 0;
-  font-size: clamp(92px, 8.35vw, 146px);
-  line-height: 0.92;
-  letter-spacing: -0.03em;
-  white-space: nowrap;
-  font-weight: 800;
-}
-
-.wixv3-wellbeing-dark {
-  color: #76787d;
-}
-
-.wixv3-wellbeing-mint {
-  color: #67c6a4;
+.wixv3-wellbeing-logo {
+  width: min(1120px, 88vw);
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
 }
 
 .wixv3-wellbeing-subline {
@@ -1505,6 +1529,25 @@ img {
   color: #f5fff9;
   font-size: 15px;
   letter-spacing: 0.32em;
+  white-space: nowrap;
+}
+
+.wixv3-keyword-strip {
+  margin: 0 58px;
+  min-height: 58px;
+  border-top: 1px solid #d8dcda;
+  border-bottom: 1px solid #d8dcda;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.wixv3-keyword-copy {
+  margin: 0;
+  color: #808387;
+  font-size: 11px;
+  letter-spacing: 0.22em;
   white-space: nowrap;
 }
 
@@ -1564,9 +1607,167 @@ img {
   line-height: 1.42;
 }
 
+.wixv3-section-shell {
+  padding: 24px 58px 48px;
+}
+
+.wixv3-section-shell-last {
+  padding-bottom: 92px;
+}
+
+.wixv3-content-shell {
+  background: #e8eae7;
+  border-radius: 18px;
+  padding: 42px 42px 46px;
+}
+
+.wixv3-eyebrow {
+  margin: 0;
+  color: #6fc7a8;
+  font-size: 14px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.wixv3-section-title {
+  margin: 16px 0 0;
+  color: #74777b;
+  font-family: "Avenir LT W01 85 Heavy", "Futura PT", "Helvetica Neue", Arial, sans-serif;
+  font-size: clamp(30px, 3.1vw, 56px);
+  letter-spacing: 0.03em;
+  line-height: 1.12;
+}
+
+.wixv3-inline-ctas {
+  margin-top: 24px;
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.wixv3-secondary-cta {
+  min-width: 180px;
+  min-height: 44px;
+  border: 1px solid #9ea4a4;
+  color: #69c4a2;
+  background: #eff1ee;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.wixv3-service-grid {
+  margin-top: 26px;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.wixv3-service-card {
+  border: 1px solid #cad0cb;
+  background: #f2f4f2;
+  padding: 18px 16px;
+  min-height: 150px;
+}
+
+.wixv3-service-title {
+  margin: 0;
+  color: #6ec5a6;
+  font-size: 18px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.wixv3-service-copy {
+  margin: 12px 0 0;
+  color: #7a7e80;
+  font-size: 14px;
+  line-height: 1.42;
+}
+
+.wixv3-category-grid {
+  margin-top: 22px;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.wixv3-category-block {
+  min-height: 120px;
+  background: linear-gradient(180deg, #7bcdb0 0%, #ecf0ed 100%);
+  border: 1px solid #cad0cb;
+  display: flex;
+  align-items: flex-end;
+  padding: 16px;
+}
+
+.wixv3-category-title {
+  margin: 0;
+  color: #727579;
+  font-size: 14px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.wixv3-team-grid {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.wixv3-team-card {
+  border: 1px solid #cad0cb;
+  background: #f2f4f2;
+  padding: 24px 20px;
+}
+
+.wixv3-team-name {
+  margin: 0;
+  color: #6dc7a7;
+  font-size: 22px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.wixv3-team-role {
+  margin: 12px 0 0;
+  color: #7a7d81;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.wixv3-awards-grid {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+  align-items: center;
+}
+
+.wixv3-award-logo {
+  width: 100%;
+  max-height: 96px;
+  object-fit: contain;
+  opacity: 0.62;
+}
+
 @media (max-width: 1200px) {
   .wixv3-built-copy {
     font-size: 20px;
+  }
+
+  .wixv3-main-nav {
+    justify-content: flex-start;
+    gap: 12px;
+  }
+
+  .wixv3-main-link {
+    font-size: 10px;
   }
 
   .wixv3-acu-title {
@@ -1630,8 +1831,8 @@ img {
     margin-top: -40px;
   }
 
-  .wixv3-wellbeing-text {
-    font-size: clamp(68px, 8.8vw, 104px);
+  .wixv3-wellbeing-logo {
+    width: min(860px, 94vw);
   }
 
   .wixv3-wellbeing-subline {
@@ -1655,6 +1856,16 @@ img {
     letter-spacing: 0.26em;
   }
 
+  .wixv3-keyword-strip {
+    margin: 0 26px;
+    min-height: 46px;
+  }
+
+  .wixv3-keyword-copy {
+    font-size: 9px;
+    letter-spacing: 0.16em;
+  }
+
   .wixv3-first-card {
     padding: 24px 20px 44px;
   }
@@ -1671,6 +1882,26 @@ img {
   .wixv3-card-body {
     font-size: clamp(18px, 3vw, 24px);
   }
+
+  .wixv3-section-shell {
+    padding: 20px 26px 36px;
+  }
+
+  .wixv3-content-shell {
+    padding: 30px 24px 34px;
+  }
+
+  .wixv3-service-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .wixv3-category-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .wixv3-awards-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 760px) {
@@ -1682,6 +1913,23 @@ img {
     font-size: 9px;
     letter-spacing: 0.12em;
     text-transform: uppercase;
+  }
+
+  .wixv3-main-nav {
+    min-height: 44px;
+    padding: 8px 12px;
+    gap: 8px;
+  }
+
+  .wixv3-main-link {
+    font-size: 8px;
+    letter-spacing: 0.08em;
+  }
+
+  .wixv3-nav-cta {
+    min-width: 110px;
+    min-height: 30px;
+    font-size: 9px;
   }
 
   .wixv3-head-top {
@@ -1745,8 +1993,8 @@ img {
     margin-top: -24px;
   }
 
-  .wixv3-wellbeing-text {
-    font-size: clamp(44px, 11.5vw, 66px);
+  .wixv3-wellbeing-logo {
+    width: min(96vw, 660px);
   }
 
   .wixv3-wellbeing-subline {
@@ -1783,6 +2031,16 @@ img {
     letter-spacing: 0.24em;
   }
 
+  .wixv3-keyword-strip {
+    margin: 0 10px;
+    min-height: 38px;
+  }
+
+  .wixv3-keyword-copy {
+    font-size: 8px;
+    letter-spacing: 0.12em;
+  }
+
   .wixv3-card-title {
     letter-spacing: 0.08em;
     font-size: clamp(28px, 7vw, 40px);
@@ -1803,5 +2061,95 @@ img {
 
   .wixv3-card-body {
     font-size: 18px;
+  }
+
+  .wixv3-section-shell {
+    padding: 14px 10px 24px;
+  }
+
+  .wixv3-content-shell {
+    border-radius: 12px;
+    padding: 22px 14px 24px;
+  }
+
+  .wixv3-eyebrow {
+    font-size: 10px;
+  }
+
+  .wixv3-section-title {
+    font-size: clamp(24px, 8vw, 34px);
+  }
+
+  .wixv3-inline-ctas {
+    margin-top: 14px;
+    gap: 8px;
+  }
+
+  .wixv3-secondary-cta {
+    min-width: 132px;
+    min-height: 34px;
+    font-size: 9px;
+  }
+
+  .wixv3-service-grid {
+    margin-top: 14px;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .wixv3-service-card {
+    min-height: 120px;
+    padding: 14px 12px;
+  }
+
+  .wixv3-service-title {
+    font-size: 14px;
+  }
+
+  .wixv3-service-copy {
+    font-size: 12px;
+  }
+
+  .wixv3-category-grid {
+    margin-top: 14px;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .wixv3-category-block {
+    min-height: 84px;
+  }
+
+  .wixv3-category-title {
+    font-size: 11px;
+  }
+
+  .wixv3-team-grid {
+    margin-top: 14px;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .wixv3-team-card {
+    padding: 16px 12px;
+  }
+
+  .wixv3-team-name {
+    font-size: 15px;
+  }
+
+  .wixv3-team-role {
+    margin-top: 8px;
+    font-size: 12px;
+  }
+
+  .wixv3-awards-grid {
+    margin-top: 14px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .wixv3-award-logo {
+    max-height: 66px;
   }
 }

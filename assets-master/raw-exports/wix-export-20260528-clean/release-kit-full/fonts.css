@@ -1,0 +1,73 @@
+/* Auto-generated from Wix export */
+@font-face {
+  font-family: 'WixUFont-888fcd_86491c1ffad84869a23bf64d222f7c5d';
+  src:
+    url('./assets/fonts/888fcd_86491c1ffad84869a23bf64d222f7c5d.woff2') format('woff2'),
+    url('./assets/fonts/888fcd_86491c1ffad84869a23bf64d222f7c5d.woff') format('woff'),
+    url('./assets/fonts/888fcd_86491c1ffad84869a23bf64d222f7c5d.ttf') format('truetype'),
+    local('Arial');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'WixUFont-888fcd_bf9f035a936944e0b4a5af39fcdcf4d1';
+  src:
+    url('./assets/fonts/888fcd_bf9f035a936944e0b4a5af39fcdcf4d1.woff2') format('woff2'),
+    url('./assets/fonts/888fcd_bf9f035a936944e0b4a5af39fcdcf4d1.woff') format('woff'),
+    url('./assets/fonts/888fcd_bf9f035a936944e0b4a5af39fcdcf4d1.ttf') format('truetype'),
+    local('Arial');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'WixUFont-8b565e_3e9cf08657a34cf1afc4aa4dee7333e8';
+  src:
+    url('./assets/fonts/8b565e_3e9cf08657a34cf1afc4aa4dee7333e8.woff2') format('woff2'),
+    url('./assets/fonts/8b565e_3e9cf08657a34cf1afc4aa4dee7333e8.woff') format('woff'),
+    url('./assets/fonts/8b565e_3e9cf08657a34cf1afc4aa4dee7333e8.ttf') format('truetype'),
+    local('Arial');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'WixUFont-8b565e_87d89f3d257842ebb4e1e88c6ce59d83';
+  src:
+    url('./assets/fonts/8b565e_87d89f3d257842ebb4e1e88c6ce59d83.woff2') format('woff2'),
+    url('./assets/fonts/8b565e_87d89f3d257842ebb4e1e88c6ce59d83.woff') format('woff'),
+    url('./assets/fonts/8b565e_87d89f3d257842ebb4e1e88c6ce59d83.ttf') format('truetype'),
+    local('Arial');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'WixUFont-8b565e_8d99849c5592478782098af215fe3581';
+  src:
+    url('./assets/fonts/8b565e_8d99849c5592478782098af215fe3581.woff2') format('woff2'),
+    url('./assets/fonts/8b565e_8d99849c5592478782098af215fe3581.woff') format('woff'),
+    url('./assets/fonts/8b565e_8d99849c5592478782098af215fe3581.ttf') format('truetype'),
+    local('Arial');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'WixUFont-8b565e_e3c1088bf69b4ac899be3544a5852a4b';
+  src:
+    url('./assets/fonts/8b565e_e3c1088bf69b4ac899be3544a5852a4b.woff2') format('woff2'),
+    url('./assets/fonts/8b565e_e3c1088bf69b4ac899be3544a5852a4b.woff') format('woff'),
+    url('./assets/fonts/8b565e_e3c1088bf69b4ac899be3544a5852a4b.ttf') format('truetype'),
+    local('Arial');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
